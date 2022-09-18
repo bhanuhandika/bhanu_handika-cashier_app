@@ -1,0 +1,26 @@
+Psuedocode Cashier App
+
+READ AND WRITE "barang[][]" with array string and array int
+READ AND WRITE "qty" with int
+READ AND WRITE "total" with int
+READ AND WRITE "a" with int
+READ AND WRITE "status" with boolean
+
+STORE "barang[][]" with "Mouse" "250000"
+STORE "barang[][]" with "Keyboard" "500000"
+
+STORE "a" with CALCULATE "barang[][harga]" multipy by "qty"
+
+IF "barang[][]" >= 1 
+    STORE "total" with CALCULATE "a" + "total"
+ELSE
+    STORE "total" with "a"
+END IF
+
+STORE "status" with boolean
+IF "status" = 1
+    STORE "barang[][]"
+ELSE
+    STORE "total" with CALCULATE "a" + "total"
+    PRINT "total"
+END IF
